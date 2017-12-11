@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Test</title>
+</head>
+<body>
+    <header class="header">
+      <h1 class="header__logo"><a href="#"><img src="img/logo.png" alt="logotype"></a></h1>
+      <nav class="header__nav">
+        <ul class="list">
+          <li class="list__item"><a href="#" class="list__link">athletes</a></li>
+          <li class="list__item"><a href="#" class="list__link">brands</a></li>
+          <li class="list__item"><a href="#" class="list__link">teams</a></li>
+          <li class="list__item"><a href="#" class="list__link">blog</a></li>
+          <li class="list__item"><a href="#" class="list__link">about</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle"><img src="img/menu.png" alt="menu"></button>
+      <div class="account-management">
+        <button class="account-management__button"><img src="img/sheet.png" alt="msg"><span class="account-management__counter">00</span></button>
+        <button class="account-management__button"><img src="img/bell.png" alt="notification"><span class="account-management__counter">00</span></button>
+        <button class="account-management__button"><img src="img/settings.png" alt="settings"></button>
+        <button class="account-management__button"><img src="img/lock.png" alt="lock"></button>
+      </div>
+    </header>
+    <main class="content">
+      <section class="campaigns-nav">
+        <h3 class="campaigns-nav__title">my campaigns</h3>
+        <ul class="campaigns-nav__list">
+          <li class="campaigns-nav__item"><a href="#" class="campaigns-nav__link"></a></li>
+          <li class="campaigns-nav__item"><a href="#" class="campaigns-nav__link"></a></li>
+          <li class="campaigns-nav__item"><a href="#" class="campaigns-nav__link"></a></li>
+          <li class="campaigns-nav__item"><a href="#" class="campaigns-nav__link"></a></li>
+          <li class="campaigns-nav__item"><a href="#" class="campaigns-nav__link"></a></li>
+          <li class="campaigns-nav__item"><a href="#" class="campaigns-nav__link"></a></li>
+          <li class="campaigns-nav__item"><a href="#" class="campaigns-nav__link"></a></li>
+          <li class="campaigns-nav__item--add"><img src="" alt="">+</li>
+        </ul>
+      </section>
+
+      <section class="campaign">
+        <h3 class="campaign__title">campaign title</h3>
+        <h4 class="campaign__athletes">my athletes (04/10)</h4>
+        <ul class="athletes">
+          <li class="athletes__item athletes__item--completed"></li>
+          <li class="athletes__item athletes__item--completed"></li>
+          <li class="athletes__item athletes__item--completed"></li>
+          <li class="athletes__item athletes__item--completed"></li>
+          <li class="athletes__item"><span>+</span></li>
+          <li class="athletes__item"><span>+</span></li>
+          <li class="athletes__item"><span>+</span></li>
+          <li class="athletes__item"><span>+</span></li>
+          <li class="athletes__item"><span>+</span></li>
+          <li class="athletes__item"><span>+</span></li>
+        </ul>
+      </section>
+
+      <div class="flex-wrapper">
+        <a href="#" class="campaign-progress">view campaign progress</a>
+        <form action="" class="search">
+          <input type="search" class="search__input" placeholder="search">
+        </form>
+        <form action="" class="select">
+          <select size="1" name="location" class="select__list">
+            <option selected class="select__item">location</option>
+            <option value="t1" class="select__item">location-1</option>
+            <option value="t2" class="select__item">location-2</option>
+            <option value="t3" class="select__item">location-3</option>
+            <option value="t4" class="select__item">location-4</option>
+          </select>
+          <select size="1" name="sport" class="select__list">
+            <option selected class="select__item">sport</option>
+            <option value="t1"  class="select__item">sport-1</option>
+            <option value="t2" class="select__item">sport-2</option>
+            <option value="t3" class="select__item">sport-3</option>
+            <option value="t4" class="select__item">sport-4</option>
+          </select>
+        </form>
+      </div>
+
+      <ul class="main-info">
+        <li class="main-info__item"><a href="#" class="main-info__link">invite athletes</a></li>
+        <li class="main-info__item"><a href="#" class="main-info__link">invited athletes</a></li>
+        <li class="main-info__item"><a href="#" class="main-info__link">review applications</a></li>
+        <li class="main-info__item"><a href="#" class="main-info__link">shortlisted athletes</a></li>
+      </ul>
+
+      <section class="order">
+        <h3 class="order__title">SELECT FROM SHORTLISTED ATHLETES</h3>
+        <p class="order_text">BELOW IS A LIST OF ATHLETES THAT YOU HAVE INVITED TO JOIN THIS CAMPAIGN. YOU CAN EITHER SEND THE CONTRACT FOR THEM TO TO ACCEPT OR, IF YOU’VE CHANGED YOUR MIND, DECLINE THE ATHLETE.</p>
+        <ul class="order__list">
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+          <li class="order__item">
+            <div class="athlet">
+              <h4 class="athlet__name">name surname</h4>
+              <ul class="athlet-info">
+                <li class="athlet-info__item">SPORT</li>
+                <li class="athlet-info__item">POSITION</li>
+                <li class="athlet-info__item">00yrs</li>
+              </ul>
+              <ul class="athlet-socials">
+                <li class="athlet-socials__item"><img src="img/logo.png" alt="$$$" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/instagram.png" alt="inst" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/twitter.png" alt="tw" class="athlet-socials__img">000k</li>
+                <li class="athlet-socials__item"><img src="img/youtube.png" alt="yt" class="athlet-socials__img">000k</li>
+              </ul>
+              <div class="link-wrapper">
+                <a href="#" class="athlet__link">send contract</a>
+                <a href="#" class="athlet__link">decline</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">home</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">athletes</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">brands</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">teams</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">blog</a></li>
+        </ul>
+      </nav>
+      <div class="socials-wrapper">
+        <h3 class="socials-title">social</h3>
+        <ul class="socials">
+          <li class="socials__item"><a href="#" class="socials__link"><img src="img/instagram.png" alt="" class="socials__img"></a></li>
+          <li class="socials__item"><a href="#" class="socials__link"><img src="img/facebook.png" alt="" class="socials__img"></a></li>
+          <li class="socials__item"><a href="#" class="socials__link"><img src="img/twitter.png" alt="" class="socials__img"></a></li>
+          <li class="socials__item"><a href="#" class="socials__link"><img src="img/youtube.png" alt="" class="socials__img"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p class="copyright__text">&copy;&nbsp;2017 Hungry Season. All Rights Reserved</p>
+        <ul class="copyright__list">
+          <li class="copyright__item"><a href="#" class="copyright__link">Terms & Conditions </a></li>
+          <li class="copyright__item"><a href="#" class="copyright__link">Privacy Policy</a></li>
+          <li class="copyright__item"><a href="#" class="copyright__link">Sitemap</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      var btn = document.getElementById('nav-toggle');
+      var nav = document.getElementsByClassName('header__nav')[0];
+      btn.addEventListener('click', function () {
+        nav.classList.toggle('show');
+        if(nav.classList.contains('show')) {
+          btn.style.left = '200px';
+        }else {
+          btn.style.left = '0'
+        }
+      });
+    </script>
+</body>
+</html>
