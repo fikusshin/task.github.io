@@ -661,11 +661,14 @@ $geo-font-medium:  'Geo medium' , Arial , sans-serif;
       bottom: 0;
     }
     &__list {
+      max-width: 870px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+          justify-content: center;
+          margin: 0 auto;
       margin-bottom: 100px;
     }
   }
